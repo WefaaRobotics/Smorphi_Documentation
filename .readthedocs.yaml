@@ -10,9 +10,9 @@ build:
   tools:
     python: "3.9"
 
- python:
-   install:
-     - requirements: requirements.txt
+#  python:
+#    install:
+#      - requirements: requirements.txt
     # You can also specify other tool versions:
     # nodejs: "20"
     # rust: "1.70"
@@ -34,6 +34,6 @@ sphinx:
 # Optional but recommended, declare the Python requirements required
 # to build your documentation
 # See https://docs.readthedocs.io/en/stable/guides/reproducible-builds.html
-# python:
-#   install:
-#     - requirements: docs/requirements.txt
+python:
+  install:
+    - requirements: requirements.txt
