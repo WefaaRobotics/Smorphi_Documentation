@@ -30,7 +30,7 @@ Power
 Operational Modes
 --------------------
 * **Manual Mode**: The smorphi robot could be operated manually using a WiFi / Bluetooth based joystick/controller/application. Furthermore, the smorphi could be connected to a raspberry PI or an IPC to be controlled/tele_operated using ROS based teleoperation packages.
-* **Autonomous Mode**: The smorphi robot is capable of autonomous navigation 
+* **Autonomous Mode**: The smorphi robot is capable of autonomous navigation using the fusion of sensors provided in the smorphi\ :sup:`2` kit. Furthermore, the smorphi robot could be used with a LiDAR / IMU by connecting a raspberry PI or an IPC to perform all the higher level sensor calculations and processings required for autonomous navigation applications.   
 
 Table of Contents:
 ----------------------------------
@@ -57,7 +57,7 @@ Table of Contents:
 
 * **Advanced Features**:
    * Our C++ api ( ``<smorphi.h>`` ) could be located in the smorphi libraries, this api is actively referenced for all the locomotion and shape changing actions for the smorphi robot
-   * Furthrmore, our C++ SDK which is also part of smorphi libraries, provides the whole stack of smorphi class and its objects which could be further developed/modified for uses/researches involving more than 4 modules (or) more than 7 shapes
+   * Furthermore, our C++ SDK which is also part of smorphi libraries, provides the whole stack of smorphi class and its objects which could be further developed/modified for uses/researches involving more than 4 modules (or) more than 7 shapes
    * Our smorphi base android SDK is available on our `smorphi app github <https://github.com/WefaaRobotics/Smorphi-App-Android/tree/main/SimpleBluetoothTerminal-final/app/release>`_ page, which could be used for modifying/developing user specific bluetooth applications for smorphi robot
 
 * **Diagnostics & Trobleshooting**:
@@ -90,10 +90,12 @@ Table of Contents:
    :caption: Contents:
 
    docs/user_manual
-   docs/exercises
+   docs/exercises/exercises
    docs/code_refs
    docs/diagnostics
    docs/FAQ
+
+   
 
 
 .. Indices and tables
