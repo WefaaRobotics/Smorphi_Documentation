@@ -95,39 +95,39 @@ Code your Smorphi\ :sup:`2` to detect colours using Blockly
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Code your Smorphi\ :sup:`2` to navigate through a slightly more complicated maze with varying widths that require shape change
 
-`Exercise 21 - Huskycam Maze Solving with shape change (C++ / Arduino) <https://github.com/WefaaRobotics/Smorphi/wiki/Exercise-21>`_
+:ref:`Exercise 21 - Huskycam Maze Solving with shape change (C++ / Arduino) <ex21>`
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Code your Smorphi\ :sup:`2` to navigate through a slightly more complicated maze with varying widths that require shape change
 
-`Exercise 22 - Customise your app to control Smorphi <https://github.com/WefaaRobotics/Smorphi/wiki/Exercise-22>`_
+:ref:`Exercise 22 - Customise your app to control Smorphi <ex22>`
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Make your own app that you can use to control Smorphi
 
-`Exercise 23 - Make your own library <https://github.com/WefaaRobotics/Smorphi/wiki/Exercise-23>`_
+:ref:`Exercise 23 - Make your own library <ex23>`
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Code exploration exercise to understand the background functions in depth
 
-`Exercise 24 - OTA (Over The Air) code upload methodology <https://github.com/WefaaRobotics/Smorphi/wiki/Exercise-24>`_
+:ref:`Exercise 24 - OTA (Over The Air) code upload methodology <ex24>`
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Setup and upload code to your smorphi robot using OTA method
 
-`Exercise 25 - Introduction to IoT(Internet of Things) / Blynk platform <https://github.com/WefaaRobotics/Smorphi/wiki/Exercise-25>`_
+:ref:`Exercise 25 - Introduction to IoT(Internet of Things) / Blynk platform <ex25>`
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Learn about IoT and Blynk platform
 
-`Exercise 26 - Setting up Blynk platform <https://github.com/WefaaRobotics/Smorphi/wiki/Exercise-26>`_
+:ref:`Exercise 26 - Setting up Blynk platform <ex26>`
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Learn to setup Blynk platform and integrate Smorphi masterboard with the Blynk cloud and Blynk app 
 
-`Exercise 27 - Smorphi control using Blynk Buttons <https://github.com/WefaaRobotics/Smorphi/wiki/Exercise-27>`_
+:ref:`Exercise 27 - Smorphi control using Blynk Buttons <ex27>`
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Control Smorphi robot using buttons on Blynk platform interface
 
-`Exercise 28 - Smorphi control using Blynk Joystick <https://github.com/WefaaRobotics/Smorphi/wiki/Exercise-28>`_
+:ref:`Exercise 28 - Smorphi control using Blynk Joystick <ex28>`
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Control Smorphi robot using joystick on Blynk platform interface
 
-`Exercise 29 - Huskylens camera <https://github.com/WefaaRobotics/Smorphi/wiki/Exercise-29>`_
+:ref:`Exercise 29 - Huskylens camera <ex29>`
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Introducing the Huskylens camera usage and set up 
 
@@ -155,4 +155,13 @@ Introducing the Huskylens camera usage and set up
    exercise_18/exercise_18
    exercise_19/exercise_19
    exercise_20/exercise_20
+   exercise_21/exercise_21
+   exercise_22/exercise_22
+   exercise_23/exercise_23
+   exercise_24/exercise_24
+   exercise_25/exercise_25
+   exercise_26/exercise_26
+   exercise_27/exercise_27
+   exercise_28/exercise_28
+   exercise_29/exercise_29
    
