@@ -66,7 +66,7 @@ Steps  / Description:
 
 
 
-.. |A| image:: 1_TEMP.PNG
+.. |A| image:: 1_temp.PNG
                :width: 800 
 
 

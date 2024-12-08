@@ -4,7 +4,7 @@ Exercise 29
 ==============
 Items needed:
 ----------------
-* / Smorphi\ :sup:`2` robot
+* Smorphi\ :sup:`2` robot
 * HuskyLens set (can all be found in the HuskyLens box)
 * A computer 
 * Internet connection 
@@ -22,7 +22,8 @@ Objective of exercise:
                                     |  HuskyLens offers seamless integration with Smorphi2 through UART or I2C protocols, empowering users with a versatile AI machine vision sensor featuring 7 distinct functionalities: face recognition, object tracking, object recognition, line tracking, color recognition, tag recognition, and object classification. With its intuitive interface, HuskyLens simplifies the process of implementing complex algorithms, making it ideal for enthusiasts seeking to embark on innovative and creative projects. More details on HuskyLens: https://wiki.dfrobot.com/HUSKYLENS_V1.0_SKU_SEN0305_SEN0336
 
 #. [How to set up the HuskyLens]
-                                    |  To quickly understand the functionalities and the usage of the HuskyLens with Smorphi, let’s download the HuskyLens library which allows you to communicate between HuskyLens and Smorphi. Link to download library:( https://codeload.github.com/HuskyLens/HUSKYLENSArduino/zip/master ) 
+                                    |  To quickly understand the functionalities and the usage of the HuskyLens with Smorphi, let’s download the HuskyLens library which allows you to communicate between HuskyLens and Smorphi. Link to download library: (https://codeload.github.com/HuskyLens/HUSKYLENSArduino/zip/master)
+                                    |  unzip the downloaded folder and copy the contents/folders of the unzipped folder and paste it in your arduino's library folder 
                                     |  |A|
                                                                                                          
 
