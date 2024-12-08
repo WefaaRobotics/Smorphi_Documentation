@@ -44,7 +44,7 @@ Steps  / Description:
 
 
 
-.. |A| image:: 1S.png
+.. |A| image:: 1S.PNG
                :width: 800 
 
 .. |B| image:: 1.png

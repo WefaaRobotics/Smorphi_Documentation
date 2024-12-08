@@ -19,7 +19,7 @@ Steps  / Description:
 ++++++++++++++++++++++++
 
 #. [Download SmorphiBlockly]
-                        |  Go to https://github.com/roarLab/Smorphi-Blockly to download the latest version of our files via the download zip button. It can be found in the drop down after clicking on the green Code button. Make sure you downloading from the Main Branch. |A| SmorphiBlocky is a visual graphical programming editor for Smorphi robots. It  Provide static type language blocks and code generators for programming on Smorphi robots. By dropping code blocks in the programme, C++ code will be generated which you can open in your Arduino IDE and upload to the Smorphi Master board.
+                        |  Go to `Smorphi-Blockly <https://sutdapac-my.sharepoint.com/:f:/g/personal/nithul_bagathi_mymail_sutd_edu_sg/Epu0MPlVhHRLrco1GkSNzMIBOoH-EIKiDYOdW_QVEf7ABQ?e=GFbOFD>`_ to download the latest version of our files via the download zip button. It can be found in the drop down after clicking on the green Code button. Make sure you downloading from the Main Branch.  SmorphiBlocky is a visual graphical programming editor for Smorphi robots. It  Provide static type language blocks and code generators for programming on Smorphi robots. By dropping code blocks in the programme, C++ code will be generated which you can open in your Arduino IDE and upload to the Smorphi Master board.
                         |  Features of SmorphiBlockly consist:
                         |    * Programming Smorphi using drag and drop code blocks.
                         |    * Uploads the code using Arduino IDE to Smorphi Master board. 
