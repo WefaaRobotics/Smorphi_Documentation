@@ -4,7 +4,7 @@ Exercise 2
 ==============
 Items needed:
 --------------
-* An assembled Smorphi mini / Smorphi\ :sup:`2` robot
+* An assembled Smorphi Single / Smorphi mini / Smorphi\ :sup:`2` robot
 * A computer
 * A USB to USB-C cable
 * Internet connection
