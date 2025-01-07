@@ -23,7 +23,7 @@ Steps  / Description:
 ++++++++++++++++++++++++
 
 #. [Download the Arduino IDE]
-                        |  Go to https://www.arduino.cc/en/Guide to download Arduino IDE. The Arduino IDE makes it easy to write code and upload into the Arduino based board we are using for Smorphi. Choose the correct version of Arduino IDE according to the type of computer you are using. Eg. If you are using Windows, download the version meant for Windows. |A| Integrated development environment (IDE) is software for building applications that combines common developer tools into a single graphical user interface (GUI). An IDE typically consists of:
+                        |  Go to https://www.arduino.cc/en/software to download Arduino IDE. The Arduino IDE makes it easy to write code and upload into the Arduino based board we are using for Smorphi. Choose the correct version of Arduino IDE according to the type of computer you are using. Eg. If you are using Windows, download the version meant for Windows. |A| Integrated development environment (IDE) is software for building applications that combines common developer tools into a single graphical user interface (GUI). An IDE typically consists of:
                         |    * Source code editor: A text editor that can assist in writing software code with features such as syntax highlighting with visual cues, providing language specific auto-completion, and checking for bugs as code is being written.
                         |    * Local build automation: Utilities that automate simple, repeatable tasks as part of creating a local build of the software for use by the developer, like compiling computer source code into binary code, packaging binary code, and running automated tests.
                         |    * Debugger: A program for testing other programs that can graphically display the location of a bug in the original code. 
@@ -56,22 +56,38 @@ Steps  / Description:
 #. [What are code libraries?]
                         |      If you go into the folder you downloaded from Wefaa Github, you will see the files below. Those of type \‘C++ Source File\’ and C Header Source File are the libraries you will be accessing when you code for the next few exercises.|J|
 #. [Add the supporting library] 
-                        |      Try clicking the Verify button, you will need to save your file first. |K| You will see this error message: |L| This is because another library that the Smorphi library needs, the Adafruit_Motor_Shield_V2_Library, has not been included. So let’s include that library. 
-                        |      Go to the \‘Include Library\’ menu and select \‘Manage Libraries…\’ |M| 
-                        |      In the search bar, look up the \‘Adafruit_Motor_Shield_V2_Library\’ and install the latest version. |N|
-                        |      You will get a pop up that says there are other dependencies that are missing. Click on the \‘Install all\’ button. |O| 
-                        |      Close the library Manager. You can now try to Verify again. You will see another error. |P|
+                        |      Select the board "ESP 32 Dev Module" under the tools as shown below. |K| Key in the code ``#include<smoprhi.h>`` and try clicking the Verify button, you would need to save your file first. |L| You will see this error message: |M| This is because another library that the Smorphi library needs, the Adafruit_Motor_Shield_V2_Library, has not been included. So let’s include that library. 
+                        |      Go to the \‘Include Library\’ menu and select \‘Manage Libraries…\’ |N| 
+                        |      In the search bar, look up the \‘Adafruit_Motor_Shield_V2_Library\’ and install the latest version. |O|
+                        |      You will get a pop up that says there are other dependencies that are missing. Click on the \‘Install all\’ button. |P| 
+                        |      Close the library Manager. You can now try to Verify again. You will see another error. |Q|
                         |      Like before, go to the \‘Manage Libraries…\’ Menu to download the library Adafruit_MCP23017_Arduino_Library. 
-                        |      Verify the code now. There should be no errors thrown. |Q|
+                        |      Verify the code now. There should be no errors thrown. |R|
 #. [Test your setup] 
                         |      Connect your computer to the board and select the port.
-                        |      **NOTE:** If the port is not detected by your windows computer, look up on google for **"Silicon Labs CP210x driver"** and download the **"Universal Windows Driver"** under the downloads tab as shown in the image below:|R|
-                        |      Once downloaded, you may extract the zip folder and select the **"silabser.inf"** and right-click to install the driver as shown in the image below:|S|
-                        |      Once installed, connect your robot to the computer and select the right port number in the Arduino IDE by referring to the **"Device Manager"** and look up for the CP210x driver as shown in the image below. |T|
-                        |      Once done, Key in the below code into your Arduino IDE.
+                        |      **NOTE:** If the port is not detected by your windows computer, look up on google for **"Silicon Labs CP210x driver"** and download the **"Universal Windows Driver"** under the downloads tab as shown in the image below:|S|
+                        |      Once downloaded, you may extract the zip folder and select the **"silabser.inf"** and right-click to install the driver as shown in the image below:|T|
+                        |      Once installed, connect your robot to the computer and select the right port number in the Arduino IDE by referring to the **"Device Manager"** and look up for the CP210x driver as shown in the image below. |U|
+                        |      Once done, Key in the below code (for smorphi square or single) into your Arduino IDE.
 .. code-block::
                                                                                       
-   #include <smorphi.h>
+   #include <smorphi.h> //smorphi_square
+   Smorphi my_robot;
+   void setup(){
+    Serial.begin(115200);
+    my_robot.BeginSmorphi();
+   }
+   void loop (){
+    my_robot.MoveForward(50);
+    delay(3000);
+    my_robot.MoveForward(0);
+    delay(3000);
+   }
+   //Your Smorphi should move forward for 3 seconds, stop for 3 seconds and then repeat. 
+
+.. code-block::
+                                                                                      
+   #include <smorphi_single.h> //smorphi_single
    Smorphi my_robot;
    void setup(){
     Serial.begin(115200);
@@ -86,7 +102,7 @@ Steps  / Description:
    //Your Smorphi should move forward for 3 seconds, stop for 3 seconds and then repeat. 
 
 #. **NOTE:** 
-        |    Usually, when you upload the code to the master board, the process should complete automatically. However, sometimes the upload will be stuck at \‘connecting……\’ |U| 
+        |    Usually, when you upload the code to the master board, the process should complete automatically. However, sometimes the upload will be stuck at \‘connecting……\’ |V| 
         |    There are 2 solutions for this: 
         * Before it resolves into an error, press and hold the Boot button and click the enable button on the Master board at the same time, then release and wait. The code should complete the upload to the master board. 
         * You can unplug and reconnect the USB cable from the Master board to your computer and then reupload the code.
@@ -123,37 +139,40 @@ Steps  / Description:
 .. |J| image:: 3.1.JPG
                :width: 800 
 
-.. |K| image:: 2.5.png
+.. |K| image:: 2.5A.png
                :width: 800 
 
-.. |L| image:: 2.6.png
+.. |L| image:: 2.5B.png
                :width: 800    
    
-.. |M| image:: 2.7.png
+.. |M| image:: 2.6.png
                :width: 800
 
-.. |N| image:: 2.8.png
+.. |N| image:: 2.7.png
                :width: 800
 
-.. |O| image:: 2.9.png
+.. |O| image:: 2.8.png
                :width: 800
 
-.. |P| image:: 2.10.png
+.. |P| image:: 2.9.png
                :width: 800
 
-.. |Q| image:: 2.11.png
+.. |Q| image:: 2.10.png
                :width: 800
 
-.. |R| image:: 2.13.jpg
+.. |R| image:: 2.11.png
                :width: 800
 
-.. |S| image:: 2.14.jpg
+.. |S| image:: 2.13.png
                :width: 800
 
-.. |T| image:: 2.15.jpg
+.. |T| image:: 2.14.jpg
                :width: 800
 
-.. |U| image:: 2.13.png
+.. |U| image:: 2.15.jpg
+               :width: 800
+
+.. |V| image:: 2.13.png
                :width: 800
 
 
