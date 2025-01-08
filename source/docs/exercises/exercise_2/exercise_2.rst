@@ -101,6 +101,8 @@ Steps  / Description:
    }
    //Your Smorphi should move forward for 3 seconds, stop for 3 seconds and then repeat. 
 
+#. You may also, upload the sample bluetooth code by going into \ **My Computer -> Documents -> Arduino -> libraries -> Smorphi2 (or smorphi_single) folder -> demo -> Smorphi_Square_BLE_Demo -> Smorphi_Square_BLE_Demo.ino**\ 
+
 #. **NOTE:** 
         |    Usually, when you upload the code to the master board, the process should complete automatically. However, sometimes the upload will be stuck at \‘connecting……\’ |V| 
         |    There are 2 solutions for this: 

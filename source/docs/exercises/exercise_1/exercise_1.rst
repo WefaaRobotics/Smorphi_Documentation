@@ -21,10 +21,11 @@ Steps / Description:
 
 1. Open up your Smorphi kit and follow the relevant :ref:`assembly manual<assemblymanual>` for smorphi\ :sup:`2` and smorphi single respectively to put together the robot and connect all the electronics
 2. Please head over to the `Google Play Store <https://play.google.com/store/apps/details?id=de.kai_morich.smorphi_app>`_ or the `App Store <https://apps.apple.com/sg/app/smorphi/id6482102114>`_  to download the "Smorphi" app
-3. Follow the instructions as shown in the picture below, to connect the robot to your phone/ tablet via Bluetooth 
+3. Turn ON the smorphi robot and click "Enable" button to start the program of the smorphi robot.
+4. Follow the instructions as shown in the picture below, to connect the robot to your phone/ tablet via Bluetooth 
    |A| 
-4. The app dashboard is explained in the below image |B| Try out all the basic locomotion (Moving, turning, pivoting and shape change) using the app
-5. Have fun!
+5. The app dashboard is explained in the below image |B| Try out all the basic locomotion (Moving, turning, pivoting and shape change) using the app
+6. Have fun!
 
 
 .. |A| image:: BLE_Connect.png
