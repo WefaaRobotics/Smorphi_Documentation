@@ -88,16 +88,17 @@ Steps  / Description:
 .. code-block::
                                                                                       
    #include <smorphi_single.h> //smorphi_single
-   Smorphi my_robot;
+   Smorphi_single my_robot;
    void setup(){
     Serial.begin(115200);
-    my_robot.BeginSmorphi();
+    my_robot.BeginSmorphi_single();
    }
    void loop (){
     my_robot.MoveForward(50);
     delay(3000);
     my_robot.MoveForward(0);
     delay(3000);
+    my_robot.stopSmorphi_single();
    }
    //Your Smorphi should move forward for 3 seconds, stop for 3 seconds and then repeat. 
 
