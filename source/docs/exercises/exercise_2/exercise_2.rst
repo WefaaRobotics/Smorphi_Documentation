@@ -82,6 +82,7 @@ Steps  / Description:
     delay(3000);
     my_robot.MoveForward(0);
     delay(3000);
+    my_robot.stopSmorphi();
    }
    //Your Smorphi should move forward for 3 seconds, stop for 3 seconds and then repeat. 
 
