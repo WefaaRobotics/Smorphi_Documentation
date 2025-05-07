@@ -54,7 +54,7 @@ Steps  / Description:
 #. [How to include Smorphi library into Arduino IDE] 
                         |      Navigate to the directory that you have downloaded the Smorphi library to --> Unzip / Extract the "smorphi" zip file --> Copy all the internal folders --> Paste all the folders in libraries folder (or) you may also create a folder with the name "libraries" inside your respective arduino directory as shown in the picture below: |H| |I|
 #. [What are code libraries?]
-                        |      If you go into the folder you downloaded from Wefaa Github, you will see the files below. Those of type \‘C++ Source File\’ and C Header Source File are the libraries you will be accessing when you code for the next few exercises.|J|
+                        |      If you go into the Smorphi2 folder you downloaded from Wefaa Github, you will see the files below. Those of type \‘C++ Source File\’ and C Header Source File are the libraries you will be accessing when you code for the next few exercises. |J|
 #. [Add the supporting library] 
                         |      Select the board "ESP 32 Dev Module" under the tools as shown below. |K| Key in the code ``#include<smoprhi.h>`` and try clicking the Verify button, you would need to save your file first. |L| You will see this error message: |M| This is because another library that the Smorphi library needs, the Adafruit_Motor_Shield_V2_Library, has not been included. So let’s include that library. 
                         |      Go to the \‘Include Library\’ menu and select \‘Manage Libraries…\’ |N| 
