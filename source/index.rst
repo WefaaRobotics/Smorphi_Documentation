@@ -10,7 +10,7 @@ Overview
 -----------
 Welcome to the smorphi robot documentation, this page includes all the resources needed for your smorphi robot. 
 
-Our Made-in-Singapore Smorphi robots are the World's first Tetris-inspired transformer robots, ideal for all ages and learning settings. The underlying technology powering our Smorphi robots is licensed from the Singapore University of Technology and Design, a global frontrunner in reconfigurable robotics.
+Our Made-in-Singapore Smorphi robots are the World's first Tetris-inspired transformer robots, ideal for all ages and learning settings. The underlying technology powering our Smorphi robots is licensed from the Singapore University of Technology and Design, a global frontrunner in reconfigurable robotics
 
 Our Smorphi robots covers users ranging from primary school kids and all the way upto researchers around the world. Along with catering for educational development, the smorphi robot is a ideal prototyping toolkit for developers in engineering product firms that allows for quick and affordable development as well as testing of algorithms and mock payloads before moving on to sophisticated high fidelity prototypes at scale.  
 
