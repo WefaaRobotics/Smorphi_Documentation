@@ -45,7 +45,7 @@ Table of Contents:
 
 * **Smorphi Mobile App**:
 
-    * Download the smoprhi app from the `Google Play Store <https://play.google.com/store/apps/details?id=de.kai_morich.smorphi_app>`_ or the `App Store <https://apps.apple.com/sg/app/smorphi/id6482102114>`_  to try out all the basic locomotion (Moving, sliding, pivoting and shape change) using the bluetooth controlled app. 
+    * Download the smorphi app from the `Google Play Store <https://play.google.com/store/apps/details?id=de.kai_morich.smorphi_app>`_ or the `App Store <https://apps.apple.com/sg/app/smorphi/id6482102114>`_  to try out all the basic locomotion (Moving, sliding, pivoting and shape change) using the bluetooth controlled app. 
 
 * **Smorphi Exercises**:
    * There are many things you can do with your smorphi_single and smorphi\ :sup:`2` robots. Do explore some of the exercises/tutorials to access some mini projects and tasks you can do with your Smorphi :ref:`here<exercises>`  
