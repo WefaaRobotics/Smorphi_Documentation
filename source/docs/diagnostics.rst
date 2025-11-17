@@ -46,7 +46,7 @@ When you open your IDE Serial Monitor and the error message “Brownout detector
 3. Board with some defect (bad solder joints)
 4. Bad computer USB port
 5. Not enough power provided by the computer USB port
-   |
+   
 *Solution*: Try a different shorter USB cable (with data wires), try a different computer USB port or use a USB hub with an external power supply
 
 
