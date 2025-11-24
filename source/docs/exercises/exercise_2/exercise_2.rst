@@ -33,7 +33,7 @@ Steps  / Description:
                         |    ``https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json`` 
                         |    Then, click the “OK” button: |C| 
                         |    Open the Boards Manager. Go to \ **Tools > Board > Boards Manager…**\ |D| 
-                        |    Search for **ESP32** and press install button for the **“ESP32 by Espressif Systems“**: |E| 
+                        |    Search for **ESP32** and under **“ESP32 by Espressif Systems“**, select the **version 2.0.4** and click on install button: |E| 
                         |    That’s it. It should be installed after a few seconds. |F| 
 #. [Download the Smorphi libraries]
                         |    Proceed to download the appropriate version of our user code library as shown in the table below via the download zip button. It can be found in the drop down after clicking on the green Code button.
