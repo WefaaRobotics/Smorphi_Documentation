@@ -21,7 +21,15 @@ Assemble your robot and link your robot to its control app for a quick start
 
 :ref:`Exercise 2 - Setting up your Smorphi for coding <ex2>`
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Learn about the various coding software and how to set them up which you will need to customise your Smorphi mini / Smorphi\ :sup:`2` to perform various tasks. 
+Learn about the arduino coding software and how to set up which in order to customise your Smorphi single / Smorphi\ :sup:`2` to perform various tasks. 
+
+:ref:`Exercise 2A - Setting up your Smorphi for coding - Arduino portable(Windows) <ex2A>`
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Learn about the arduino coding software and how to set up which in order to customise your Smorphi single / Smorphi\ :sup:`2` to perform various tasks. 
+
+:ref:`Exercise 2B - Setting up your Smorphi for coding - Arduino portable(MacOS) <ex2B>`
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Learn about the arduino coding software and how to set up which in order to customise your Smorphi single / Smorphi\ :sup:`2` to perform various tasks. 
 
 :ref:`Exercise 3 - Documentation <ex3>`
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -41,27 +49,27 @@ Learn basic Arduino coding structures, like variables, loops and conditionals.
 
 :ref:`Exercise 7 - Temperature sensor (Blockly) <ex7>`
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Set up and use Blockly to control your Smorphi mini / Smorphi\ :sup:`2` kit's temperature sensor for various activities and purposes
+Set up and use Blockly to control your Smorphi single / Smorphi\ :sup:`2` kit's temperature sensor for various activities and purposes
 
 :ref:`Exercise 8 - Temperature sensor (C++ / Arduino) <ex8>`
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Set up and use C++ code to control your Smorphi mini / Smorphi\ :sup:`2` kit's temperature sensor for various activities and purposes
+Set up and use C++ code to control your Smorphi single / Smorphi\ :sup:`2` kit's temperature sensor for various activities and purposes
 
 :ref:`Exercise 9 - Sound sensor (Blockly) <ex9>`
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Set up and use Blockly to control your Smorphi mini / Smorphi\ :sup:`2` kit's sound sensors for various activities and purposes
+Set up and use Blockly to control your Smorphi single / Smorphi\ :sup:`2` kit's sound sensors for various activities and purposes
 
 :ref:`Exercise 10 - Sound sensor (C++ / Arduino) <ex10>`
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Set up and use C++ code to control your Smorphi mini / Smorphi\ :sup:`2` kit's sound sensors for various activities and purposes
+Set up and use C++ code to control your Smorphi single / Smorphi\ :sup:`2` kit's sound sensors for various activities and purposes
 
 :ref:`Exercise 11 - Infrared (IR) for obstacle detection (Blockly) <ex11>`
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Set up and use Blockly to control your Smorphi mini / Smorphi\ :sup:`2` kit's IR sensors for various obstacle-detection purposes
+Set up and use Blockly to control your Smorphi single / Smorphi\ :sup:`2` kit's IR sensors for various obstacle-detection purposes
 
 :ref:`Exercise 12 - Infrared (IR) for obstacle detection (C++ / Arduino) <ex12>`
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Set up and use C++ to control your Smorphi mini / Smorphi\ :sup:`2` kit's IR sensors for various obstacle-detection purposes
+Set up and use C++ to control your Smorphi single / Smorphi\ :sup:`2` kit's IR sensors for various obstacle-detection purposes
 
 `Exercise 13 - Simple line following using 2 IR sensors <https://github.com/WefaaRobotics/Smorphi/wiki/Exercise-133>`_
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -85,7 +93,7 @@ Connecting Pixycam to your Smorphi\ :sup:`2` as a sensor
 
 :ref:`Exercise 18 - Simple maze navigation <ex18>`
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Code your Smorphi mini / Smorphi\ :sup:`2` to navigater through a simple maze
+Code your Smorphi single / Smorphi\ :sup:`2` to navigater through a simple maze
 
 :ref:`Exercise 19 - Pixycam colour detection (Blockly) <ex19>`
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -139,6 +147,8 @@ Introducing the Huskylens camera usage and set up
 
    exercise_1/exercise_1
    exercise_2/exercise_2
+   exercise_2A/exercise_2A
+   exercise_2B/exercise_2B
    exercise_3/exercise_3
    exercise_4/exercise_4
    exercise_5/exercise_5
