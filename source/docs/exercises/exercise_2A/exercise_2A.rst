@@ -1,6 +1,6 @@
 .. _ex2A:
 
-Exercise 2
+Exercise 2A
 ==============
 Items needed:
 --------------
@@ -11,13 +11,18 @@ Items needed:
 
 Objectives of exercise:
 -------------------------
-1. Download and set up Arduino IDE
-2. Learn how to include and install library
-3. Setting up of Smorphi for coding to customise functionality
-4. Learn some simple debugging skills
-5. Learn how to look up information on Google
-6. Learn how to use the Arduino IDE
+1. Download and set up Arduino portable version for Windows laptop
+2. Setting up of Smorphi for coding to customise functionality
 
+Steps  / Description:
+++++++++++++++++++++++++
+
+#. [Step 1]
+                        |  Download 7-zip (`Click here <https://play.google.com/store/apps/details?id=de.kai_morich.smorphi_app>`_) to extract the arduino portable files. 
+                        |  Download the arduino portable for windows (`Click here <https://play.google.com/store/apps/details?id=de.kai_morich.smorphi_app>`_). The 
+                        |    * Source code editor: A text editor that can assist in writing software code with features such as syntax highlighting with visual cues, providing language specific auto-completion, and checking for bugs as code is being written.
+                        |    * Local build automation: Utilities that automate simple, repeatable tasks as part of creating a local build of the software for use by the developer, like compiling computer source code into binary code, packaging binary code, and running automated tests.
+                        |    * Debugger: A program for testing other programs that can graphically display the location of a bug in the original code. 
 
 
 

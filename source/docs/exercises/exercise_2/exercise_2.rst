@@ -56,7 +56,7 @@ Steps  / Description:
 #. [What are code libraries?]
                         |      If you go into the Smorphi2 folder you downloaded from Wefaa Github, you will see the files below. Those of type \‘C++ Source File\’ and C Header Source File are the libraries you will be accessing when you code for the next few exercises. |J|
 #. [Add the supporting library] 
-                        |      Select the board "ESP 32 Dev Module" under the tools as shown below. |K| Key in the code ``#include<smoprhi.h>`` and try clicking the Verify button, you would need to save your file first. |L| You will see this error message: |M| This is because another library that the Smorphi library needs, the Adafruit_Motor_Shield_V2_Library, has not been included. So let’s include that library. 
+                        |      Select the board "ESP 32 Dev Module" under the tools as shown below. |K| Key in the code ``#include<smorphi.h>`` and try clicking the Verify button, you would need to save your file first. |L| You will see this error message: |M| This is because another library that the Smorphi library needs, the Adafruit_Motor_Shield_V2_Library, has not been included. So let’s include that library. 
                         |      Go to the \‘Include Library\’ menu and select \‘Manage Libraries…\’ |N| 
                         |      In the search bar, look up the \‘Adafruit_Motor_Shield_V2_Library\’ and install the latest version. |O|
                         |      You will get a pop up that says there are other dependencies that are missing. Click on the \‘Install all\’ button. |P| 

@@ -23,11 +23,11 @@ Assemble your robot and link your robot to its control app for a quick start
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Learn about the arduino coding software and how to set up which in order to customise your Smorphi single / Smorphi\ :sup:`2` to perform various tasks. 
 
-:ref:`Exercise 2A - Setting up your Smorphi for coding - Arduino portable(Windows) <ex2A>`
+:ref:`Exercise 2A - Setting up your Smorphi for coding - Arduino portable (Windows) <ex2A>`
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Learn about the arduino coding software and how to set up which in order to customise your Smorphi single / Smorphi\ :sup:`2` to perform various tasks. 
 
-:ref:`Exercise 2B - Setting up your Smorphi for coding - Arduino portable(MacOS) <ex2B>`
+:ref:`Exercise 2B - Setting up your Smorphi for coding - Arduino portable (MacOS) <ex2B>`
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Learn about the arduino coding software and how to set up which in order to customise your Smorphi single / Smorphi\ :sup:`2` to perform various tasks. 
 
