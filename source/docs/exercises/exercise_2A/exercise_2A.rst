@@ -33,6 +33,8 @@ Steps  / Description:
                         |  Download Blockly from (`here <https://github.com/WefaaRobotics/Smorphi_Board/releases/download/V_BLK_0.1/ardublockly_Darwin64_2026-03-24_00.36.zip>`_)
 #. [NOTE]
                         |  **PLEASE NOTE:** For Smorphi Advanced robot, please select the board as ``Arduino UNO`` and for regular Smorphi Square and Smorphi Single robot, please select ``ESP32 Dev Module``  The USB driver installation is required for the Smorphi robot to be recognized by the computer.
+#. [**SMORPHI_ADVNCD_USERS**]
+                        |  For Smorphi Advanced users, please download the sample bluetooth code from this (`link <https://github.com/WefaaRobotics/Smorphi_Board/releases/download/V_BLK_0.1/BLE_robot.zip>`_) for the BLE code to test bluetooth locomotion or can use the tutorial codes (`Click here <https://github.com/WefaaRobotics/Smorphi_Board/releases/download/V_BLK_0.1/Smorphi.Advance.blocky.code.zip>`_) to test out different sensors and functionalities of the Smorphi Advanced robot using the blockly interface.
 
 
 
