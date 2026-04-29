@@ -18,11 +18,19 @@ Steps  / Description:
 ++++++++++++++++++++++++
 
 #. [Step 1]
-                        |  Download 7-zip (`Click here <https://play.google.com/store/apps/details?id=de.kai_morich.smorphi_app>`_) to extract the arduino portable files. 
-                        |  Download the arduino portable for windows (`Click here <https://play.google.com/store/apps/details?id=de.kai_morich.smorphi_app>`_). The 
-                        |    * Source code editor: A text editor that can assist in writing software code with features such as syntax highlighting with visual cues, providing language specific auto-completion, and checking for bugs as code is being written.
-                        |    * Local build automation: Utilities that automate simple, repeatable tasks as part of creating a local build of the software for use by the developer, like compiling computer source code into binary code, packaging binary code, and running automated tests.
-                        |    * Debugger: A program for testing other programs that can graphically display the location of a bug in the original code. 
+                        |  Download 7-zip (`Click here <https://github.com/WefaaRobotics/Smorphi_Board/releases/download/v1.0.2/7z2501-x64.exe>`_) to extract the arduino portable files. 
+                        |  Run the installation application ``7z2501-x64.exe``
+                        |  When prompted to allow the app to make changes, click **Yes**
+#. [Step 2]
+                        |  Download the arduino portable ZIP file for windows (`Click here <https://github.com/WefaaRobotics/Smorphi_Board/releases/download/v1.0.2/arduino-1.8.19.zip>`_) 
+                        |  After downloading, right-click on ``arduino-1.8.19.zip`` and click **Show more options**
+                        |  Click on **7-Zip**, then in the extended branch click **Extract files…**
+                        |  Extract the file to the destination ``C:\``, then click **OK**. The window will close when extraction is completed.
+#. [Step 3]
+                        |  Download the USB driver from the (`link <https://github.com/WefaaRobotics/Smorphi_Board/releases/download/v1.0.2/CP210x_Universal_Windows_Driver.zip>`_). 
+                        |  Install the USB driver by accessing the ``CP210x_Universal_Windows_Driver`` folder and selecting the file **silabser.inf (Setup information file)**, then right-click and select **Install**.
+#. [NOTE]
+                        |  **PLEASE NOTE:** For Smorphi Advanced robot, please select the board as ``Arduino UNO`` and for regular Smorphi Square and Smorphi Single robot, please select ``ESP32 Dev Module``  The USB driver installation is required for the Smorphi robot to be recognized by the computer.
 
 
 
