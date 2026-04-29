@@ -27,6 +27,9 @@ Please `download <https://github.com/WefaaRobotics/Smorphi/wiki/Smorphi-User-Man
    * - Smorphi_Single
      - SEPT 2023 - AUG 2024
      - `Click Here <https://github.com/WefaaRobotics/smorphi-assembly-manual/blob/main/Smorphi%20Assembly%20Manual/2024_01_02_Assembly_manual_smorphi.pdf>`_
+  * - Smorphi_Single
+     - JAN 2026 - Present
+     - `Click Here <https://github.com/WefaaRobotics/Smorphi_Board/releases/download/V_USR_MNL_ADVNCD/Smorphi.Advanced.User.Manual_UPDTD.pdf>`_
 
 
 
