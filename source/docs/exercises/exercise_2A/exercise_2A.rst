@@ -18,7 +18,7 @@ Steps  / Description:
 ++++++++++++++++++++++++
 
 #. [Step 1]
-                        |  Download 7-zip (`Click here <https://github.com/WefaaRobotics/Smorphi_Board/releases/download/v1.0.2/7z2501-x64.exe>`_) to extract the arduino portable files. 
+                        |  Download 7-zip (`Click Here <https://github.com/WefaaRobotics/Smorphi_Board/releases/download/v1.0.2/7z2501-x64.exe>`_) to extract the arduino portable files. 
                         |  Run the installation application ``7z2501-x64.exe``
                         |  When prompted to allow the app to make changes, click **Yes**
 #. [Step 2]
@@ -33,8 +33,8 @@ Steps  / Description:
                         |  Download Blockly from (`here <https://github.com/WefaaRobotics/Smorphi_Board/releases/download/V_BLK_0.1/ardublockly_Darwin64_2026-03-24_00.36.zip>`_)
 #. [NOTE]
                         |  **PLEASE NOTE:** For Smorphi Advanced robot, please select the board as ``Arduino UNO`` and for regular Smorphi Square and Smorphi Single robot, please select ``ESP32 Dev Module``  The USB driver installation is required for the Smorphi robot to be recognized by the computer.
-#. [**SMORPHI_ADVNCD_USERS**]
-                        |  For Smorphi Advanced users, please download the sample bluetooth code from this (`link <https://github.com/WefaaRobotics/Smorphi_Board/releases/download/V_BLK_0.1/BLE_robot.zip>`_) for the BLE code to test bluetooth locomotion or can use the tutorial codes (`Click here <https://github.com/WefaaRobotics/Smorphi_Board/releases/download/V_BLK_0.1/Smorphi.Advance.blocky.code.zip>`_) to test out different sensors and functionalities of the Smorphi Advanced robot using the blockly interface.
+#. [SMORPHI_ADVNCD_USERS]
+                        |  For Smorphi Advanced users, please download the sample bluetooth code from this (`Ref_Link <https://github.com/WefaaRobotics/Smorphi_Board/releases/download/V_BLK_0.1/BLE_robot.zip>`_) for the BLE code to test bluetooth locomotion or can use the tutorial (`Codes <https://github.com/WefaaRobotics/Smorphi_Board/releases/download/V_BLK_0.1/Smorphi.Advance.blocky.code.zip>`_) to test out different sensors and functionalities of the Smorphi Advanced robot using the blockly interface.
 
 
 
